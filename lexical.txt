@@ -34,3 +34,10 @@ for i in range(0,length):
         continue
     if re.match(r"^[^\d\W]\w*\Z", splitCode[i]):
         print("Identifier --> ",splitCode[i])
+        
+#input file name is lexical.txt
+#Input
+#a = b + c;
+#Aisa denaa
+#With spaces
+#Semicolon se pehle no space
