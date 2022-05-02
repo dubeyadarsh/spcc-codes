@@ -75,3 +75,9 @@ void mntproc(char a1[50])
     n[imnt].index=imdt+1; // increment index of MNT
 }
 
+// For input create asm.asm file
+//MACRO 
+//ABC &C1,&C2 
+//SUB AREG,C1 
+//ADD CREG,C2 
+//MEND
